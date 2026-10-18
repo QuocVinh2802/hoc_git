@@ -1,0 +1,146 @@
+{
+  "id": 14,
+  "name": "Màn 14: Pháo Đài Trên Không",
+  "difficulty": "Rất Khó (14/15)",
+  "description": "Vượt qua thảm gạch cam, kích hoạt công tắc nặng ở đảo phụ rồi quay về mở cổng vào đích.",
+  "grid": [
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      2,
+      2,
+      5,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      7,
+      7,
+      1,
+      3,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      1,
+      2,
+      2,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      4,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "start_pos": [
+    2,
+    1
+  ],
+  "goal_pos": [
+    2,
+    10
+  ],
+  "bridges": [
+    {
+      "id": 0,
+      "positions": [
+        [
+          2,
+          7
+        ]
+      ],
+      "initial_open": false
+    },
+    {
+      "id": 1,
+      "positions": [
+        [
+          2,
+          8
+        ]
+      ],
+      "initial_open": false
+    }
+  ],
+  "switches": [
+    {
+      "pos": [
+        5,
+        6
+      ],
+      "type": "soft",
+      "targets": [
+        0
+      ],
+      "behavior": "open"
+    },
+    {
+      "pos": [
+        1,
+        5
+      ],
+      "type": "heavy",
+      "targets": [
+        1
+      ],
+      "behavior": "open"
+    }
+  ]
+}

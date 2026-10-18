@@ -1,0 +1,97 @@
+{
+  "id": 6,
+  "name": "Màn 6: Cây Cầu Đầu Tiên",
+  "difficulty": "Trung bình (6/15)",
+  "description": "Công tắc tròn (O) là công tắc nhẹ: chạm bất kỳ phần nào của khối cũng bật/tắt cầu.",
+  "grid": [
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      4,
+      1,
+      7,
+      7,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      3,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  ],
+  "start_pos": [
+    1,
+    1
+  ],
+  "goal_pos": [
+    2,
+    8
+  ],
+  "bridges": [
+    {
+      "id": 0,
+      "positions": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "initial_open": false
+    }
+  ],
+  "switches": [
+    {
+      "pos": [
+        1,
+        2
+      ],
+      "type": "soft",
+      "targets": [
+        0
+      ],
+      "behavior": "toggle"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": 10,
+  "name": "Màn 10: Phân Thân Hợp Nhất",
+  "difficulty": "Khá (10/15)",
+  "description": "Đứng vào vòng tròn () để tách thành 2 khối đơn. Nhấn SPACE đổi khối, chạm nhau để hợp nhất!",
+  "grid": [
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      6,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      3,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  ],
+  "start_pos": [
+    1,
+    1
+  ],
+  "goal_pos": [
+    2,
+    7
+  ],
+  "bridges": [],
+  "switches": [
+    {
+      "pos": [
+        1,
+        2
+      ],
+      "type": "split",
+      "spawn_positions": [
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "id": 15,
+  "name": "Màn 15: Thử Thách Tối Thượng",
+  "difficulty": "Cực Khó (15/15)",
+  "description": "Tổng hợp tất cả cơ chế: Gạch cam dễ vỡ, Công tắc phân tách (), Công tắc nhẹ O, Công tắc nặng X và Cầu kép!",
+  "grid": [
+    [
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      2,
+      1,
+      6,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      0,
+      0,
+      7,
+      0,
+      0,
+      1,
+      3,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      5,
+      1,
+      7,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  ],
+  "start_pos": [
+    1,
+    1
+  ],
+  "goal_pos": [
+    2,
+    12
+  ],
+  "bridges": [
+    {
+      "id": 0,
+      "positions": [
+        [
+          2,
+          8
+        ]
+      ],
+      "initial_open": false
+    },
+    {
+      "id": 1,
+      "positions": [
+        [
+          4,
+          11
+        ]
+      ],
+      "initial_open": false
+    }
+  ],
+  "switches": [
+    {
+      "pos": [
+        1,
+        4
+      ],
+      "type": "split",
+      "spawn_positions": [
+        [
+          0,
+          8
+        ],
+        [
+          3,
+          8
+        ]
+      ]
+    },
+    {
+      "pos": [
+        0,
+        10
+      ],
+      "type": "soft",
+      "targets": [
+        0
+      ],
+      "behavior": "open"
+    },
+    {
+      "pos": [
+        4,
+        9
+      ],
+      "type": "heavy",
+      "targets": [
+        1
+      ],
+      "behavior": "open"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": 4,
+  "name": "Màn 4: Bước Chân Nhẹ Nhàng",
+  "difficulty": "Trung bình - Dễ (4/15)",
+  "description": "Ô màu cam (Dễ vỡ) sẽ sập nếu khối hộp ĐỨNG THẲNG trên đó. Hãy lăn NẰM qua chúng!",
+  "grid": [
+    [
+      0,
+      0,
+      0,
+      2,
+      2,
+      2,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      3,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ]
+  ],
+  "start_pos": [
+    1,
+    1
+  ],
+  "goal_pos": [
+    2,
+    8
+  ],
+  "bridges": [],
+  "switches": []
+}
